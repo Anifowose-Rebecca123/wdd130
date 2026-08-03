@@ -26,7 +26,7 @@
 
     <main>
         <section class="company-info">
-            <h2>Contact Us</h2>
+            <h1>Contact Us</h1>
             <h3>Amazing Rafting Expeditions</h3>
             <p>456 Canyon River Road</p>
             <p>Buena Vista, CO 81211</p>
@@ -40,7 +40,7 @@
             <div class="map">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d759.7051424132334!2d-105.46019270000001!3d40.3906692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8769662c144b79af%3A0xfcfb3b048bfe6c1!2s456%20Canyon%20River%20Rd%2C%20Drake%2C%20CO%2080515%2C%20USA!5e0!3m2!1sen!2sng!4v1785755055529!5m2!1sen!2sng"
-                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  allowfullscreen="" loading="lazy"
                   referrerpolicy="strict-origin-when-cross-origin"></iframe>
             </div>
 
@@ -56,17 +56,17 @@
                     <div class="radio-group">
                         <label>
                             <input type="radio" name="purpose" value="general">
-                            General Inquiry
+                            <label for="general">General Inquiry</label>
                         </label>
 
                         <label>
                             <input type="radio" name="purpose" value="reservation">
-                            Reservation Question
+                            <label for="reservation">Reservation Question</label>
                         </label>
 
                         <label>
                             <input type="radio" name="purpose" value="website">
-                            Website Suggestion
+                            <label for="website">Website Suggestion</label>
                         </label>
                     </div>
 
@@ -74,8 +74,9 @@
                     <textarea id="message" name="message" placeholder="Type here"></textarea>
 
                     <label class="newsletter">
-                        <input type="checkbox">
-                        Please subscribe me to the monthly newsletter
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        <label for="newsletter">Please subscribe me to the monthly
+                            newsletter</label>
                     </label>
 
                     <button type="submit">Get in Touch!</button>
