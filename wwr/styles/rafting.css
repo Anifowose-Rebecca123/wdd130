@@ -279,3 +279,266 @@ textarea {
     object-fit: cover;
     border-radius: 3px;
 }
+
+/* week 6 */
+.home-hero {
+    position: relative;
+}
+
+.home-hero img {
+    display: block;
+    width: 840px;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+.history-elements h1 {
+    font-family: var(--heading-font);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.newsletter-home {
+    margin: 4rem 0;
+    padding: 1.5rem;
+    background-color: var(--accent2-color);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.newsletter-home h2 {
+    margin: 0 0 1rem;
+    background: none;
+    color: var(--primary-color);
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter-home form {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    gap: 1rem;
+    align-items: end;
+}
+
+.newsletter-home label {
+    display: block;
+    text-align: left;
+    margin-bottom: 0.3rem;
+}
+
+.newsletter-home input {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+}
+
+.newsletter-home button {
+    padding: 0.85rem 1.5rem;
+    background: var(--primary-color);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.newsletter-home button:hover {
+    background: var(--secondary-color);
+}
+
+.cta {
+    position: relative;
+    margin: 5rem 0;
+    padding: 4rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-image {
+    width: 700px;
+    height: 340px;
+    object-fit: cover;
+    display: block;
+}
+
+.cta-card {
+    position: absolute;
+    right: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 300px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, .25);
+    background: var(--accent2-color);
+    border-radius: 4px;
+
+}
+
+.cta-card h2 {
+    text-align: left;
+    background: none;
+    color: #fff;
+    margin: 0 0 1rem;
+    padding: 0;
+    font-size: 2.5rem;
+}
+
+.cta-card p {
+    max-width: 260px;
+    margin: 1rem auto 2rem;
+    line-height: 1.8;
+}
+
+.cta-button {
+    display: inline-block;
+    background: var(--accent2-color);
+    color: #000;
+    text-decoration: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.cta-button:hover {
+    background: var(--accent1-color);
+    color: #fff;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin: 5rem 0;
+}
+
+.feature {
+    background: #fff;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.feature img {
+    width: 200px;
+}
+
+.feature h3 {
+    color: var(--primary-color);
+    margin: 1rem 0;
+}
+
+.feature p {
+    line-height: 1.6;
+}
+
+.trip {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+    margin: 4rem 0;
+    padding: 2rem;
+}
+
+.trip-hero {
+    position: relative;
+    width: 100%;
+}
+
+.trip-hero img {
+    display: block;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.trip-hero h1 {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
+    font-family: var(--heading-font);
+    font-size: 2rem;
+}
+
+.trip img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 2px;
+}
+
+.trip-content {
+    padding: 1rem;
+}
+
+.trip-content h2 {
+    margin-top: 1rem;
+    color: #fff;
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 1rem;
+    border-radius: 2px;
+}
+
+.trip-content ul {
+    padding-left: 1.5rem;
+}
+
+.trip-content p {
+    font-size: 1.1rem;
+    line-height: 1;
+}
+
+.trip-content h3 {
+    font-size: 1.4rem;
+    margin-top: 1rem;
+}
+
+.trip-table {
+    margin: 4rem 0;
+    text-align: center;
+}
+
+.trip-table h2 {
+    margin-bottom: 2rem;
+}
+
+.trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: var(--body-font);
+}
+
+.trip-table th,
+.trip-table td {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    text-align: left;
+}
+
+.trip-table th {
+    background-color: var(--primary-color);
+    color: #fff;
+    font-family: var(--heading-font);
+    font-size: 1.1rem;
+}
+
+.trip-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.trip-table tr:hover {
+    background-color: #e5f5fa;
+}
